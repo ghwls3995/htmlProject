@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="productPage.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>안경점</title>
+</head>
+<body>
+    <div class="box-area">
+		<header>
+			<div class="wrapper">
+				<div class="logo">
+                    <img src="안경아이콘.PNG" width="50px" height="50px">
+					<a href="main.html">Davinchi</a>
+				</div>
+				<nav>
+					<a href="mainproduct.html">제품</a> 
+                    <a href="#">새소식</a>
+                    <a href="#">오시는길</a> 
+                    <a href="#">A/S센터</a> 
+                    <a href="#">고객센터</a> 
+                    <a href="loginPage.html">로그인</a>
+                    <a href="signupPage.html">회원가입</a>
+                </nav>
+			</div>
+		</header>
+
+		<div class="container">
+			<div class="product">
+				<h1>Royal</h1>
+				<img id="product_image" src="product1.PNG">
+				<div id="product_pictures">
+				    <img src="product1.PNG" width="200px" height="100px" onclick="changeImage('product1.PNG')">
+				    <img src="product2.PNG" width="200px" height="100px" onclick="changeImage('product2.PNG')">
+				    <img src="product3.PNG" width="2000px" height="100px" onclick="changeImage('product3.PNG')">
+			</div>
+			<div class="price">
+				<b>150,000원</b> 
+			</div>
+			<div>
+				<a></a>
+				<a href="#" class="myButton">구매하기</a> 
+
+				<a href="#" class="myButton">제품상세보기</a>
+			</div>
+			</div>
+		</div>
+
+		
+		<script>
+			function changeImage(imageUrl) {
+				document.getElementById('product_image').src = imageUrl;
+			}
+		</script>
+</body>
+</html>
