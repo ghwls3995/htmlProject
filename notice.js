@@ -11,6 +11,10 @@ function preparing() {
     alert("죄송합니다. 해당 제품은 현재 준비중입니다.");
 }
 
+function menu_preparing() {
+    alert("준비중입니다.");
+}
+
 function validateForm() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
