@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="productPage.css">
     <meta charset="UTF-8">
-	<script src="./js/notice.js"></script>
+	<script src="notice.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>안경점</title>
 </head>
@@ -43,19 +43,12 @@
 				<a></a>
 				<a href="#" class="myButton" onclick="purchase()">구매하기</a> 
 
-				<a href="#" class="myButton">제품상세보기</a>
+				<a href="#" class="myButton" onclick="preparing()">제품상세보기</a>
 			</div>
 			</div>
 		</div>
-
-		
-		<script>
-			function changeImage(imageUrl) {
-				document.getElementById('product_image').src = imageUrl;
-			}
-			function purchase() {
-				alert("죄송합니다. 해당 제품은 현재 품절되었습니다.");
-			}
-		</script>
+			<footer class="footer">
+				&copy; 2024 Davinchi. All rights reserved.
+			</footer>
 </body>
 </html>
